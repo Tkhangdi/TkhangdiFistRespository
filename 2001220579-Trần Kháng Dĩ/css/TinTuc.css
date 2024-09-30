@@ -1,0 +1,30 @@
+.TinTuc {
+    padding-bottom: 20px;
+}
+.hidden-content h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+.hidden-content strong {
+    font-weight: bold;
+}
+
+
+
+.aligncenter, div.aligncenter {
+    margin: 5px auto;
+}
+.wp-caption {
+    background: #fff;
+    border: 0px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+element.style {
+    text-align: justify;
+}
+.mona-content p {
+    margin: 10px 0;
+}

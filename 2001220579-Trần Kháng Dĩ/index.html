@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="icon" href="imgs/LOGO-removebg-preview.png" type="images/x-icon">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web bán đồ thể thao | AoTheThao.vn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    
+
+    <link rel="stylesheet" href="css/Nav-top.css">
+    <link rel="stylesheet" href="css/Menu-main.css">
+    <link rel="stylesheet" href="css/Carousel-slide.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/Ao_CLB.css">
+    <link rel="stylesheet" href="css/banner_Lienhe.css">
+    <link rel="stylesheet" href="css/TinTuc.css">
+    <link rel="stylesheet" href="css/stylesXT.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/BackToTop.css">
+    <link rel="stylesheet" href="css/Contac-fixed.css">
+
+
+</head>
+
+<body>
+
+    <!-- start Nav-top -->
+    <div class="nav-outer">
+        <div class="container">
+            <div class="nav-top">
+                <div class="nav-logo">
+                    <a href="https://aobongda.vn/">
+                        <p class="hide-sitename">AoTheThao.vn </p>
+                    </a>
+                </div>
+
+                <div class="header-search-form">
+                    <input type="text" class="search-input" placeholder="Tìm sản phẩm ...">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </div>
+
+
+                <ul class="nav-custom">
+                    <li>
+                        <a class="custom-item" href="tel:012.999.9999" target="_blank">
+                            <img loading="lazy"
+                                src="https://aobongda.vn/template/dist/assets/images/common/ico_call.svg" alt="Hotline"
+                                title="Hotline">
+                            <div class="custom-content">
+                                <span>Hotline</span>
+                                <span>012.999.9999</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="custom-item custom-cart" title="Giỏ hàng" href="https://aobongda.vn/cart/"
+                            target="_self">
+                            <img loading="lazy" src="https://aobongda.vn/template/dist/assets/images/common/ico_bag.svg"
+                                alt="cart" title="cart">
+                            <div class="custom-content">
+                                <span>Xem giỏ hàng</span>
+                                <div id="mona-cart-qty">
+                                    <span id="number-cart-pc">0</span>
+                                    sản phẩm
+                                </div>
+                            </div>
+                            <span id="number-cart" class="cart-num">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="custom-item custom-login" href="Form_DangNhap.html" rel="modal:open">
+                            <img loading="lazy"
+                                src="https://aobongda.vn/template/dist/assets/images/common/ico_user.svg" alt=""
+                                title="">
+                            <span>Đăng nhập</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end Nav-top -->
+
+
+
+    <!-- start Menu-main -->
+    <nav class="nav">
+        <div class="container">
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    data-bs-auto-close="true" aria-expanded="false" style="background-color: #37003c;border: 0;">
+                    Áo CLB
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://aobongda.vn/premier-league/" >Premier League</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/bundesliga/" >Bundesliga</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/la-liga/" >La Liga</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/serie-a/" >Serie A</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"data-bs-auto-close="true" aria-expanded="false" style="background-color: #37003c;border: 0;">
+                    Áo ĐTQG
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://aobongda.vn/ao-bong-da-doi-tuyen-quoc-gia/" >Áo Đội Tuyển</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/ao-bong-da-euro/" >Áo Euro</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    data-bs-auto-close="true" aria-expanded="false" style="background-color: #37003c;border: 0;">
+                    Phụ kiện
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://aobongda.vn/bang-cuon/" >Băng Cuốn</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/balo-tui/" >Balo / Túi</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/bong-thi-dau/" >Bóng Thi Đấu</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/phu-kien-the-thao/" >Phụ Kiện Thể Thao</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    data-bs-auto-close="true" aria-expanded="false" style="background-color: #37003c;border: 0;">
+                    Giày
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://aobongda.vn/adidas/" >Adidas</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/nike/" >Nike</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/mizuno/" >Mizuno</a></li>
+                    <li><a class="dropdown-item" href="https://aobongda.vn/giay-bong-da/" >Giày Bóng Đá</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <a class="menu-link" href="https://aobongda.vn/lien-he/" >Liên Hệ</a>
+            </div>
+        </div>
+    </nav>
+    <!-- end Menu-main -->
+
+
+    <!-- start Carousel slide -->
+    <div class="Carousel-slide">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/A1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/A2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/A3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- end Carousel slide -->
+
+
+    <!-- start Danh_muc_san_pham -->
+    <section class="intro">
+        <div class="container">
+            <div class="slide-wrap">
+                <div class="swiper js-product-intro">
+                    <ul class="product-list swiper-wrapper">
+                        <li class="product-item swiper-slide" style="height: 247px;">
+                            <a class="product-img" href="https://aobongda.vn/ao-bong-da-doi-tuyen-quoc-gia/" target="_self">
+                                <img width="384" height="247" src="https://aobongda.vn/wp-content/uploads/2024/01/Rectangle-2784.jpg" >                                                
+                                <div class="textCTA"><h3 class="title23">Áo Đội Tuyển</h3></div>
+                            </a>
+                        </li>
+                        <li class="product-item swiper-slide" style="height: 247px;">
+                            <a class="product-img" href="https://aobongda.vn/quan-ao-bong-da-clb/" target="_self">
+                                <img width="384" height="247" src="https://aobongda.vn/wp-content/uploads/2024/01/Rectangle-2781.jpg" >                                                
+                                <div class="textCTA"><h3 class="title23">Áo Câu Lạc Bộ</h3></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="product-list swiper-wrapper">
+                        <li class="product-item swiper-slide" style="height: 247px;">
+                            <a class="product-img" href="https://aobongda.vn/san-pham-khac/" target="_self">
+                                <img width="384" height="247" src="https://aobongda.vn/wp-content/uploads/2024/01/Rectangle-278xx.jpg" >                                                
+                                <div class="textCTA"><h3 class="title23">Sản Phẩm Khác</h3></div>
+                            </a>
+                        </li>
+                        <li class="product-item swiper-slide" style="height: 247px;">
+                            <a class="product-img" href="https://aobongda.vn/quan-ao-bong-da-khong-logo/" target="_self">
+                                <img width="384" height="247" src="https://aobongda.vn/wp-content/uploads/2024/01/Rectangle-27814.jpg">                                                
+                                <div class="textCTA"><h3 class="title23">Áo Không logo</h3></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- end Danh_muc_san_pham -->
+
+
+
+    <!-- start Ao_CLB -->
+    <div class="AOCLB">
+        <div class="container">
+            <div class="AO_CLB">
+                <div class="product-AOCLB">
+                    <h2 class="title">Áo Đấu Câu Lạc Bộ</h2>
+                    <a class="view-more " href="https://aobongda.vn/quan-ao-bong-da-clb/">Xem tất cả</a>
+                </div>
+            </div>
+
+            <div class="js-tab">
+                <ul class="product-tab">
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/quan-ao-bong-da-clb/">Áo Bóng Đá CLB</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/bundesliga/">Bundesliga</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/giai-dau-khac/">Giải Đấu Khác</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/la-liga/">La Liga</a> </li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/premier-league/">Premier League</a> </li>
+                </ul>
+            </div>
+
+           
+            <div class="js-product product-slide">
+                <ul class="product-list">
+                    <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6"style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img"href="https://aobongda.vn/san-pham/ao-clb-song-lam-nghe-an-san-khach-2023-2024/" title="ÁO CLB SÔNG LAM NGHỆ AN SÂN KHÁCH 2023 – 2024" target="_self">
+                                    <img width="493" height="430"src="https://aobongda.vn/wp-content/uploads/2024/05/886edfe1cf6a3a6c4958c126f6486ace86af0d0b-493x430.png">
+                                    
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/ao-clb-song-lam-nghe-an-san-khach-2023-2024/"title="ÁO CLB SÔNG LAM NGHỆ AN SÂN KHÁCH 2023 – 2024">ÁO CLB SÔNG LAM NGHỆ AN SÂN KHÁCH 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet"
+                                        href="https://aobongda.vn/san-pham/ao-clb-song-lam-nghe-an-san-khach-2023-2024/"
+                                        title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/ao-clb-arsenal-san-nha-2023-2024/"title="ÁO CLB ARSENAL SÂN NHÀ 2023 – 2024" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/ffc9da7ed5147cbe9f33121a024d2ebfde5cf838-493x430.jpg" >
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                    <a href="https://aobongda.vn/san-pham/ao-clb-arsenal-san-nha-2023-2024/" title="ÁO CLB ARSENAL SÂN NHÀ 2023 – 2024">ÁO CLB ARSENAL SÂN NHÀ 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet"
+                                        href="https://aobongda.vn/san-pham/ao-clb-arsenal-san-nha-2023-2024/"
+                                        title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/ao-clb-liverpool-san-nha-2023-2024/" title="ÁO CLB LIVERPOOL SÂN NHÀ 2023 – 2024">
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/e12db590c2aaa6cbb83339fd1f8bf647a8a1ceb9-493x430.jpg">
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/ao-clb-liverpool-san-nha-2023-2024/" title="ÁO CLB LIVERPOOL SÂN NHÀ 2023 – 2024">ÁO CLB LIVERPOOL SÂN NHÀ 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet"
+                                        href="https://aobongda.vn/san-pham/ao-clb-liverpool-san-nha-2023-2024/"
+                                        title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/ao-clb-chelsea-san-nha-2023-2024/" title="ÁO CLB CHELSEA SÂN NHÀ 2023 – 2024">
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/7fec999d97fce63e9963f71da5dc65e74b247a19-493x430.png">
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/ao-clb-chelsea-san-nha-2023-2024/" title="ÁO CLB CHELSEA SÂN NHÀ 2023 – 2024">ÁO CLB CHELSEA SÂN NHÀ 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet"
+                                        href="https://aobongda.vn/san-pham/ao-clb-chelsea-san-nha-2023-2024/"
+                                        title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- end Ao_CLB -->
+
+
+
+    <!-- start Ao_DTQG -->
+    <div class="AOCLB">
+        <div class="container">
+            <div class="AO_CLB">
+                <div class="product-AOCLB">
+                    <h2 class="title">Áo Đấu Đội Tuyển Quốc Gia</h2>
+                    <a class="view-more " href="https://aobongda.vn/ao-bong-da-doi-tuyen-quoc-gia/">Xem tất cả</a>
+                </div>
+            </div>
+
+            <div class="js-tab">
+                <ul class="product-tab">
+                    <li class="js-tab-btn product-tab-item "> <a
+                            href="https://aobongda.vn/ao-bong-da-doi-tuyen-quoc-gia/">Áo Bóng Đá ĐTQG</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/ao-bong-da-euro/">Áo Bóng Đá
+                            EURO</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="js-product product-slide">
+                    <ul class="product-list">
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6"style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/ao-doi-tuyen-brazil-san-nha-2023-2024/" title="ÁO ĐỘI TUYỂN BRAZIL SÂN NHÀ 2023 – 2024" >
+                                    <img width="436" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/62c553f92d4f642570da25588d2456d076c172fe-430x430.jpg">
+                                    
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/ao-doi-tuyen-brazil-san-nha-2023-2024/" title="ÁO ĐỘI TUYỂN BRAZIL SÂN NHÀ 2023 – 2024">ÁO ĐỘI TUYỂN BRAZIL SÂN NHÀ 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/ao-doi-tuyen-brazil-san-nha-2023-2024/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/ao-doi-tuyen-italia-training-mau-xanh-ket/" title="ÁO ĐỘI TUYỂN ITALIA TRAINING MÀU XANH KÉT" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/526b59eaa66d49de86249df4fb37799006f1256d-493x430.jpg" >
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                    <a href="https://aobongda.vn/san-pham/ao-doi-tuyen-italia-training-mau-xanh-ket/" title="ÁO ĐỘI TUYỂN ITALIA TRAINING MÀU XANH KÉT">ÁO ĐỘI TUYỂN ITALIA TRAINING MÀU XANH KÉT</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/ao-doi-tuyen-italia-training-mau-xanh-ket/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/ao-doi-tuyen-duc-san-nha-2023-2024/" title="ÁO ĐỘI TUYỂN ĐỨC SÂN NHÀ 2023 – 2024" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/48a52f226d14892eca43c0529437c2fec3d9d741-493x430.png">
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/ao-doi-tuyen-duc-san-nha-2023-2024/" title="ÁO ĐỘI TUYỂN ĐỨC SÂN NHÀ 2023 – 2024">ÁO ĐỘI TUYỂN ĐỨC SÂN NHÀ 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet"
+                                        href="https://aobongda.vn/san-pham/ao-doi-tuyen-duc-san-nha-2023-2024/"
+                                        title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/ao-doi-tuyen-italia-san-nha-2023-2024/" title="ÁO ĐỘI TUYỂN ITALIA SÂN NHÀ 2023 – 2024" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/bc486220f7e90f3b5e9957363a7f497e90b2b39b-493x430.jpg">
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/ao-doi-tuyen-italia-san-nha-2023-2024/" title="ÁO ĐỘI TUYỂN ITALIA SÂN NHÀ 2023 – 2024">ÁO ĐỘI TUYỂN ITALIA SÂN NHÀ 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet"
+                                        href="https://aobongda.vn/san-pham/ao-doi-tuyen-italia-san-nha-2023-2024/"
+                                        title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- end Ao_DTQG -->
+
+
+
+    <!-- start Phu_kien -->
+    <div class="AOCLB">
+        <div class="container">
+            <div class="AO_CLB">
+                <div class="product-AOCLB">
+                    <h2 class="title">Phụ Kiện Thể Thao</h2>
+                    <a class="view-more " href="https://aobongda.vn/balo-tui/">Xem tất cả</a>
+                </div>
+            </div>
+
+            <div class="js-tab">
+                <ul class="product-tab">
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/bong-thi-dau/">Bóng Thi Đấu/Găng Tay</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/phu-kien-the-thao/">Phụ Kiện</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="js-product product-slide">
+                    <ul class="product-list">
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6"style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/gang-tay-thu-mon-gkvn-ben-trang/" title="Găng Tay Thủ Môn GKVN Bền – Trắng" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/47ea85a916d107511d4ba940c5fbdfda9d2a61ea-430x430.webp" >
+                                    
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/gang-tay-thu-mon-gkvn-ben-trang/" title="Găng Tay Thủ Môn GKVN Bền – Trắng">Găng Tay Thủ Môn GKVN <br> Bền – Trắng</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>850.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/gang-tay-thu-mon-gkvn-ben-trang/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/bong-da-fifa-quality-pro-uhv-2-07-cobra/" title="BÓNG ĐÁ FIFA QUALITY PRO UHV 2.07 COBRA" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/5fb859c23bac8d181b61cf057dc2213f89e08abc-430x430.webp" >
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                    <a href="https://aobongda.vn/san-pham/bong-da-fifa-quality-pro-uhv-2-07-cobra/" title="BÓNG ĐÁ FIFA QUALITY PRO UHV 2.07 COBRA" >BÓNG ĐÁ FIFA QUALITY PRO UHV 2.07 COBRA</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>2.330.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/bong-da-fifa-quality-pro-uhv-2-07-cobra/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/bong-da-fifa-quality-uhv-2-05-so-5/" title="BÓNG ĐÁ FIFA QUALITY UHV 2.05 SỐ 5" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/d639a8abd554e893153619c477187ec3ff3e6ff7-430x430.jpg" >
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/bong-da-fifa-quality-uhv-2-05-so-5/" title="BÓNG ĐÁ FIFA QUALITY UHV 2.05 SỐ 5"> BÓNG ĐÁ FIFA QUALITY UHV 2.05 SỐ 5 </a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/bong-da-fifa-quality-uhv-2-05-so-5/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/bong-da-fifa-quality-uhv-2-05-galaxy-so-5/" title="BÓNG ĐÁ FIFA QUALITY UHV 2.05 GALAXY SỐ 5" >
+                                    <img width="493" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/1a090d487797b539cc29d1b183bb103b1d1a199e-430x430.webp" >
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/bong-da-fifa-quality-uhv-2-05-galaxy-so-5/" title="BÓNG ĐÁ FIFA QUALITY UHV 2.05 GALAXY SỐ 5" >BÓNG ĐÁ FIFA QUALITY UHV 2.05 GALAXY SỐ 5</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>130.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/bong-da-fifa-quality-uhv-2-05-galaxy-so-5/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- end Phu_kien -->
+
+
+
+    <!-- start Giay -->
+    <div class="AOCLB">
+        <div class="container">
+            <div class="AO_CLB">
+                <div class="product-AOCLB">
+                    <h2 class="title">Giày Bóng Đá</h2>
+                    <a class="view-more " href="https://aobongda.vn/giay-bong-da/" >Xem tất cả</a>
+                </div>
+            </div>
+
+            <div class="js-tab">
+                <ul class="product-tab">
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/mizuno/">Mizuno</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/adidas/">Adidas</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/nike/">Nike</a></li>
+                    <li class="js-tab-btn product-tab-item "> <a href="https://aobongda.vn/giay-bong-da/">Giày</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="js-product product-slide">
+                    <ul class="product-list">
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6"style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iv-pro-as-vang/" title="GIÀY MIZUNO MORELIA NEO IV PRO AS VÀNG" >
+                                    <img width="300" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/68fa97847d930f8046dcbcb667306242137bc40c-430x430.webp" >
+                                    
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iv-pro-as-vang/" title="GIÀY MIZUNO MORELIA NEO IV PRO AS VÀNG" >GIÀY MIZUNO MORELIA NEO IV PRO AS VÀNG</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>2.750.000&nbsp;<span class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iv-pro-as-vang/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iv-pro-as-do-vang/" title="GIÀY MIZUNO MORELIA NEO IV PRO AS ĐỎ VÀNG" >
+                                    <img width="300" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/74451af27f0301b010824252f0ce1bdb417a9c11-430x430.webp" >
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title">
+                                    <a href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iv-pro-as-do-vang/" title="GIÀY MIZUNO MORELIA NEO IV PRO AS ĐỎ VÀNG" >GIÀY MIZUNO MORELIA NEO IV PRO AS ĐỎ VÀNG</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>2.950.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iv-pro-as-do-vang/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide product-item swiper-slide-active" role="group" aria-label="1 / 6" style="height: 394.475px;">
+                            <div class="product-inner">
+                                <a class="product-img" href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iii-pro-as-xanh-ngoc-bac/" title="GIÀY MIZUNO MORELIA NEO III PRO AS XANH NGỌC BẠC" >
+                                    <img width="300" height="430" src="https://aobongda.vn/wp-content/uploads/2024/05/067f8c783d9ac0b7d995ed6f22464f865a8f15d4-436x430.webp" >
+                                </a>
+                                <div class="product-content">
+                                    <h3 class="product-title"><a href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iii-pro-as-xanh-ngoc-bac/" title="GIÀY MIZUNO MORELIA NEO III PRO AS XANH NGỌC BẠC" >ÁO ĐỘI TUYỂN ĐỨC SÂN NHÀ 2023 – 2024</a></h3>
+                                    <div class="mona-default-price-content monaProductPrice">
+                                        <div class="para-price variable">
+                                            <div class="product-price pro-price-number price priceString">
+                                                <span class="woocommerce-Price-amount amount"><bdi>1.050.000&nbsp;<span
+                                                            class="woocommerce-Price-currencySymbol">VNĐ</span></bdi></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="btnXemChiTiet" href="https://aobongda.vn/san-pham/giay-mizuno-morelia-neo-iii-pro-as-xanh-ngoc-bac/" title="Xem chi tiết"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- end Giay -->
+
+
+
+    <!-- start banner_Lienhe -->
+    <div class="banner_Lienhe">
+        <div class="container">
+                <div class="h-cont">
+                    <div class="h-cont-img">
+                        <img src="https://aobongda.vn/template/dist/assets/images/common/home_contact.png" alt="Cung cấp áo thi đấu bóng đá số lượng lớn chất lượng tốt giao hàng nhanh">
+                    </div>
+                    <div class="h-cont-content">
+                        <p class="title">Cung cấp áo thi đấu bóng đá số lượng lớn chất lượng tốt giao hàng nhanh</p>
+                        <div class="sadsk">
+                            <a title="Liên hệ ngay" class="btn btn-sec" href="https://aobongda.vn/lien-he/" ><span>Liên hệ ngay</span></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- end banner_Lienhe -->
+
+
+
+    <!-- start TinTuc -->
+    <div class="TinTuc">
+        <div class="container">
+            <!-- <div class="visible-content">
+                <p>This is the visible content.</p>
+            </div> -->
+            <div class="hidden-content">
+                <h2 style="text-align: justify;"><strong><span style="color: #282828;">Nhu cầu sử dụng áo bóng đá tại Việt Nam&nbsp;</span></strong></h2>
+                <div id="attachment_3522" style="width: 710px" class="wp-caption aligncenter">
+                    <img decoding="async" aria-describedby="caption-attachment-3522" class="wp-image-3522 size-full" src="https://aobongda.vn/wp-content/uploads/2024/01/nhu-cau-ve-ao-bong-da-hien-nay-1.jpg" alt="Thị trường quần áo đấu sôi nổi tại Việt Nam" width="700" height="400" >
+                    <p id="caption-attachment-3522" class="wp-caption-text">Thị trường quần áo đá bóng sôi nổi tại Việt Nam</p>
+                    
+                </div>
+                <p style="text-align: justify;">
+                    <span style="color: #282828;">Đất nước Việt Nam luôn khiến bạn bè quốc tế phải kinh ngạc về tinh thần đam mê bóng đá cuồng nhiệt của người dân Việt. Từ trẻ nhỏ, thanh niên đến người già, không phân biệt giới tính đều có chung một tình yêu mãnh liệt với bộ môn thể thao này. Hơn thế nữa, ngoài những giải đấu bóng đá CLB hay thế giới thì ngày nay càng có nhiều doanh nghiệp, công ty cũng tổ chức phong trào thể thao thi đấu bóng đá nội bộ. Chính vì vậy, thị trường áo đá banh tại Việt Nam luôn vô cùng sôi nổi và chưa từng hạ nhiệt, đặc biệt là vào những mùa giải lớn World Cup, Euro hay AFC Asian Cup,… Sự đa dạng và phong phú của sản phẩm đồ bóng đá Việt Nam từ các CLB đến đội tuyển quốc gia luôn là điểm thu hút không thể phủ nhận.</span>
+                </p>
+                <h2 style="text-align: justify;"><strong><span style="color: #282828;">Tổng Hợp Các Công Nghệ Trên Áo Bóng Đá Được Áp Dụng&nbsp;</span></strong></h2>
+                <div id="attachment_3522" style="width: 710px" class="wp-caption aligncenter">
+                    <img decoding="async" aria-describedby="caption-attachment-3522" class="wp-image-3522 size-full" src="https://aobongda.vn/wp-content/uploads/2024/06/cong-nghe-tren-ao-bong-da.jpg" width="700" height="400" >
+                </div>
+                <p style="text-align: justify;">
+                    <span style="color: #282828;">Công nghệ làm mát và tăng độ thoáng đang được coi là một trong những công nghệ quan trọng nhất trong việc phát triển các bộ trang phục thi đấu bóng đá. Trong một môn thể thao đòi hỏi sự hoạt động cường độ cao và liên tục như bóng đá, việc mặc trang phục phải mang lại cảm giác thoải mái và khô ráo dưới mọi áp lực, giúp cầu thủ tập trung tối đa vào việc thi đấu. Chính vì vậy, việc cải tiến công nghệ làm mát và tăng độ thoáng luôn được các nhà sản xuất trang phục bóng đá đặc biệt chú trọng.</span>
+                    <br><span style="color: #282828;">Trong các pha tranh chấp trong bóng đá, trang phục thi đấu phải được thiết kế để đạt độ bền cao. Điều này đã thúc đẩy sự phát triển của công nghệ chống rách trong việc sử dụng các loại vải đặc biệt. So với các loại vải truyền thống, các loại vải tích hợp công nghệ chống rách thường nhẹ nhàng hơn, sợi vải linh hoạt và co giãn một cách linh hoạt, đồng thời khó bị rách hơn nhiều. Nhờ công nghệ trên áo bóng đá này mà cầu thủ có thể thoải mái hơn khi di chuyển trong áo bóng đá mà không lo lắng về nguy cơ rách hỏng, so với việc mặc các loại quần áo thông thường. </span>
+                    <br><span style="color: #282828;">Trong vài năm gần đây, nhận thức về tác động tiêu cực của tia UV đã trở nên rõ ràng hơn, khiến cho cả giới thể thao nói chung và bóng đá nói riêng bắt đầu quan tâm đến khả năng chống nắng của trang phục. Đặc biệt, bóng đá là một môn thể thao ngoài trời, vì vậy các trang phục thi đấu bóng đá ngày nay thường được tích hợp công nghệ chống tia UV để giảm thiểu tiếp xúc với tác động có hại của tia UV, từ đó bảo vệ các cầu thủ khỏi các vấn đề về da như mụn, cháy nắng, và các tác động khác. </span>
+                </p>
+            </div>
+            <button id="seeMoreBtn" class="btnXemThem">Tin Tức</button>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+    <!-- end TinTuc -->
+
+
+
+
+    <!-- start Footer -->
+    <div class="Footer-main">
+        <div class="container">
+            <div class="ft-main-list">
+                <div class="footer-list">
+                    <div class="fl-logo">
+                        <a href="#">
+                            <p>AOTHETHAO</p>
+                        </a>
+                    </div>
+                    <ul class="ft-menu1">
+                        <li class="ft-menu-item">Địa chỉ :&nbsp;29 Hồng Tiến - Long Biên - Hà Nội</li>
+                        <li class="ft-menu-item">Hotline :&nbsp;0814.123.888. - 0824.123.888.</li>
+                        <li class="ft-menu-item">Email :&nbsp;<a href="mailto:aobongda@gmail.com"
+                                target="_blank">aobongda@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-list2">
+                    <p>Sản Phẩm</p>
+                    <ul class="ft-menu2">
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-thiet-ke/">THIẾT KẾ ÁO THEO YÊU CẦU</a></li>
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-tre-em/">ÁO BÓNG ĐÁ TRẺ EM</a></li>
+                        <li class="ft-menu-item"><a class="menu-link" href="https://aobongda.vn/quan-ao-bong-da-clb/">ÁO
+                                BÓNG ĐÁ CÂU LẠC BỘ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-list3">
+                    <p>Chính Sách</p>
+                    <ul class="ft-menu3">
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-thiet-ke/">Giới thiệu</a></li>
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-tre-em/">Hướng Dẫn Đặt Hàng</a></li>
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-clb/">Hướng Dẫn Thanh Toán</a></li>
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-clb/">Chính sách bảo hành</a></li>
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-clb/">Chính sách đổi trả</a></li>
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-clb/">Chính sách giao nhận</a></li>
+                        <li class="ft-menu-item"><a class="menu-link"
+                                href="https://aobongda.vn/quan-ao-bong-da-clb/">Chính sách bảo mật</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-list4">
+                    <p>Kết nối với chúng tôi</p>
+                    <ul class="ft-menu4">
+                        <li class="menu4-item"><a class="menu-link"
+                                href="https://www.facebook.com/messages/t/123997270788226" target="_blank"><img
+                                    width="30" height="31"
+                                    src="https://aobongda.vn/wp-content/uploads/2024/01/ico_messenger.svg" alt=""
+                                    loading="lazy" decoding="async"></a></li>
+                        <li class="menu4-item"><a class="menu-link" href="https://www.facebook.com/aobongda.vn.shop"
+                                target="_blank"><img width="23" height="24"
+                                    src="https://aobongda.vn/wp-content/uploads/2024/01/ico_facebook.svg"
+                                    class="attachment-full size-full wvs-archive-product-image" alt="" loading="lazy"
+                                    decoding="async"></a></li>
+                        <li class="menu4-item"><a class="menu-link" href="#" target="_blank"><img width="30" height="22"
+                                    src="https://aobongda.vn/wp-content/uploads/2024/01/ico_youtube.svg"
+                                    class="attachment-full size-full wvs-archive-product-image" alt="" loading="lazy"
+                                    decoding="async"></a></li>
+                        <li class="menu4-item"><a class="menu-link" href="https://zalo.me/2838991676311676214"
+                                target="_blank"><img width="25" height="26"
+                                    src="https://aobongda.vn/wp-content/uploads/2024/01/ico_zalo.svg"
+                                    class="attachment-full size-full wvs-archive-product-image" alt="" loading="lazy"
+                                    decoding="async"></a></li>
+                        <li class="menu4-item"><a class="menu-link" href="#" target="_blank"><img width="24" height="34"
+                                    src="https://aobongda.vn/wp-content/uploads/2024/01/ico_shopee.svg"
+                                    class="attachment-full size-full wvs-archive-product-image" alt="" loading="lazy"
+                                    decoding="async"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end Footer -->
+
+
+    <!-- start Backtotop -->
+    <div class="backtotop js-to-top is-active">
+        <a href="#">
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+            <div class="triangle"></div>
+        </a>
+    </div>
+    <!-- end Backtotop -->
+
+
+
+    <!-- start contact-fixed -->
+    <div class="contact-fixed">
+        <ul class="menu">
+            <li class="menu-item">
+                <a class="menu-link" href="https://www.facebook.com/messages/t/123997270788226" target="_blank">
+                <img width="30" height="31" src="https://aobongda.vn/wp-content/uploads/2024/02/ico_messenger1.svg" ></a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="https://zalo.me/2838991676311676214" target="_blank">
+                <img width="25" height="26" src="https://aobongda.vn/wp-content/uploads/2024/02/ico_zalo1.svg" ></a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link" href="tel:0829939999" target="_blank">
+                <img width="28" height="28" src="https://aobongda.vn/wp-content/uploads/2024/02/ico_call1.svg" ></a>
+            </li>
+        </ul>
+    </div>
+    <!-- end contact-fixed -->
+
+
+</body>
+
+</html>

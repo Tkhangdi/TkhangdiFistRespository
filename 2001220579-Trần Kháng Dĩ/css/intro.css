@@ -1,0 +1,52 @@
+.intro{
+    padding-left: 200px;
+    padding-top: 70px;
+}
+
+.intro .product-list{
+    display: flex;
+}
+.intro .product-list li{
+    padding-right: 170px;
+}
+
+.intro .product-img {
+    position: relative;
+    overflow: hidden;
+}
+.product-img img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.textCTA {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; 
+    color: white;
+    box-sizing: border-box;
+    transition: color 0.3s ease;
+}
+.text-overlay:hover{
+    color: orange;
+}
+
+/* Hover effect */
+.product-img:hover img {
+    
+    transform: scale(1.1); /* Zoom in the image */
+}
+
+.product-img:hover .textCTA{
+    
+    color: orange; /* Change text color to orange */
+}
+
+.textCTA .title23 {
+    margin: 0;
+    font-size: 1.5em; 
+}

@@ -1,0 +1,96 @@
+.Footer-main{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(54, 8, 54);
+}
+.ft-main-list{
+    display: flex;
+}
+.ft-main-list li a{
+    font-size: 15px;
+}
+.ft-main-list li a:hover{
+    color: #efb344;
+}
+
+.ft-main-list ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.fl-logo a{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #efb344;
+}
+.ft-menu1 a{
+    color: #efb344;
+}
+.ft-menu1 li{
+    color: white;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.footer-list{
+    padding-right: 20px;
+}
+
+.footer-list2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-list2 p{
+    color: white;
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.ft-menu2 li{
+    color: white;
+    padding-top: 20px;
+}
+.ft-menu2 li:hover{
+    text-decoration: underline;
+    color: #efb344;
+}
+
+
+
+
+
+.footer-list3{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-list3 p{
+    color: white;
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.ft-menu3 li{
+    color: white;
+    padding-top: 20px;
+}
+.ft-menu3 li:hover{
+    text-decoration: underline;
+    color: #efb344;
+}
+
+
+
+.footer-list4{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-list4 p{
+    color: white;
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 30px;
+}
+.ft-menu4{
+    display: flex;
+}
+.menu4-item{
+    padding-right: 10px;
+}

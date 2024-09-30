@@ -1,0 +1,31 @@
+.nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    background: #37003c;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.btn-group{
+    padding-right: 160px;
+}
+.btn-group button:hover{
+    color: #f4be2c;
+}
+.btn-group .dropdown-menu li a{
+    font-size: 20px;
+}
+.btn-group .dropdown-menu li a:hover{
+    color: #f4be2c;
+}
+.btn-group a{
+    font-size: 15px;
+}
+.menu-link0{
+    padding-left: 60px;
+}
+.btn-group .menu-link:hover {
+    color: #f4be2c;
+}

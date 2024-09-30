@@ -1,0 +1,172 @@
+.AOCLB{
+    padding-bottom: 100px;
+}
+.AO_CLB{
+    padding-top: 50px;
+    max-width: 134rem;
+}
+.product-AOCLB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+    gap: 1rem;
+}
+.title {
+    color: #393d48;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 130%;
+}
+.view-more {
+    color: #d97706;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 150%;
+    text-decoration-line: underline;
+    transition: 0.3s ease-in-out;
+}
+.view-more a{
+    text-decoration: none;
+}
+
+
+
+
+.product-tab {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+.product-tab-item {
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 1.1rem;
+    color: #393d48;
+    padding: 1.2rem 1.6rem;
+    background: #e6e6e6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-tab-item a{
+    color: black;
+}
+.js-tab ul li:first-child{
+    background-color: #f4be2c;
+}
+.product-tab li:hover{
+    background-color: #f4be2c;
+}
+
+
+
+.product-list{
+    display: flex;
+}
+.product-inner {
+    /* padding: 2rem 1.6rem; */
+    padding-left: 60px;
+
+}
+.product-img {
+    padding-top: 20px;
+}
+.product-inner .product-img img{
+    transition: transform 0.5s;
+}
+.product-inner .product-img img:hover{
+    transform: scale(1.2)
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-content {
+    gap: 0.7rem;
+    margin-top: 1.6rem;
+}
+.product-title, .product-title a {
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 0.9rem;
+    color: #1c212e;
+}
+.product-title a:hover{
+    color: #f4be2c;
+}
+.para-price {
+    display: flex;
+}
+.product-list .product-price {
+    font-size: 1.1rem;
+}
+.product-price {
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.032rem;
+    font-size: 2.4rem;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.btnXemChiTiet {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #1c212e;
+    height: 3.4rem;
+    padding: 1.2rem 3.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8rem;
+    /* position: relative;
+    overflow: hidden; */
+    border: 0.1rem solid #fbbf24;
+    
+    position: relative; /* Cần thiết để đặt phần tử giả phía trong */
+    overflow: hidden; /* Để tránh phần tử giả tràn ra ngoài */
+    background: none; /* Xóa bỏ màu nền ban đầu nếu có */
+    transition: color 0.4s; /* Chuyển đổi màu chữ mượt mà */
+    
+}
+
+.btnXemChiTiet::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; /* Bắt đầu từ bên ngoài phía trái */
+    width: 100%;
+    height: 100%;
+    background: #fbbf24; /* Màu nền cam */
+    transition: left 0.3s; 
+    
+}
+
+.btnXemChiTiet:hover::before {
+    left: 0; /* Di chuyển vào từ trái sang phải */
+}
+
+.btnXemChiTiet:hover {
+    color: #ffffff; /* Thay đổi màu chữ khi hover */
+}
+
+.btnXemChiTiet > * {
+    position: relative; /* Đảm bảo nội dung phía trên nền chạy */
+    z-index: 1; /* Đặt nội dung phía trên phần tử giả */
+}
+
+
+
+

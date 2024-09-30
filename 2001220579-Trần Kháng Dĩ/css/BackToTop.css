@@ -1,0 +1,42 @@
+.backtotop.is-active {
+    visibility: visible;
+    opacity: 3;
+}
+.backtotop {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.6rem;
+    background-color: #fbbf24;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+    bottom: 3rem;
+    right: 4rem;
+    transition: 0.5s linear;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+.backtotop .triangle:nth-child(1) {
+    animation: BTT 1.5s linear 0.6s infinite;
+}
+.backtotop .triangle:nth-child(2) {
+    animation: BTT 1.5s linear 0.3s infinite;
+}
+.backtotop .triangle:nth-child(3) {
+    animation: BTT 1.5s linear 0.0s infinite;
+}
+.backtotop .triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 2;
+    border: 8px solid transparent;
+    border-bottom: 6px solid #fff;
+    margin-top: -6px;
+    border-radius: 5px;
+}
